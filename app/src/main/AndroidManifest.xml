@@ -11,6 +11,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.TemiServing"
+        android:roundIcon="@mipmap/ic_launcher_round"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
@@ -22,5 +23,7 @@
             </intent-filter>
         </activity>
     </application>
-
+    <meta-data
+        android:name = 'com.robotemi.sdk.metadata.SKILL'
+        android:value = "@String/App_name"/>
 </manifest>
