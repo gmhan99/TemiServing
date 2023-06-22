@@ -1,0 +1,2 @@
+rootProject.name = "TemiServing"
+include ':app'
